@@ -8,7 +8,7 @@ function ListGroup() {
   return (
     <>
       <h1>List</h1>
-      {items.length ===0? <p>No Items found</p>:null}
+      
       {items.length===0 && <p>No items found</p>}
       <ul className="list-group">
         {items.map((item) => (
