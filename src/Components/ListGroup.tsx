@@ -3,6 +3,9 @@ import { Fragment } from "react";
 function ListGroup() {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
 
+
+  const handleClick =(event) => console.log(event)
+
   return (
     <>
       <h1>List</h1>
