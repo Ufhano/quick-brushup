@@ -4,9 +4,14 @@ function ListGroup() {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
   items=[];
 
+  const getMessage =()=>{
+    return items.length ===0? <p>No Items foind</p>:null;;
+  }
+
   return (
     <>
       <h1>List</h1>
+      {getMessage()}
       <ul className="list-group">
         {items.map((item) => (
           <li key={item}> {item}</li>
