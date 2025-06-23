@@ -1,10 +1,11 @@
 import { Fragment } from "react";
+import  {MouseEvent}from "react";
 
 function ListGroup() {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
 
 
-  const handleClick =(event) => console.log(event)
+  const handleClick =(event:MouseEvent) => console.log(event)
 
   return (
     <>
