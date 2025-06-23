@@ -1,7 +1,9 @@
 import { Fragment } from "react";
 
 function ListGroup() {
-  const items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
+  let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
+  items=[]
+
 
   return (
     <>
