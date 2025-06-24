@@ -1,5 +1,8 @@
 import { Fragment, useState } from "react";
-
+interface Props{
+  items: string[];
+  heading: string;
+}
 
 function ListGroup() {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
