@@ -1,12 +1,11 @@
 import { Fragment } from "react";
-import  {MouseEvent}from "react";
+
 
 function ListGroup() {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
   let selectedIndex = 0
 
-//event handling the onclick
-  const handleClick =(event:MouseEvent) => console.log(event)
+
 
   return (
     <>
@@ -18,7 +17,7 @@ function ListGroup() {
           <li
             className={selectedIndex === index? 'list-group-item active' : 'list-group=item'}
             key={item}
-            onClick={handleClick}
+            onClick={()=> {selectedIndex= index;}}
           >
             {" "}
             {item}
