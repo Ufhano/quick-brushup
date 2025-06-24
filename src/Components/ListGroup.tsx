@@ -2,6 +2,8 @@ import { Fragment, useState } from "react";
 interface Props{
   items: string[];
   heading: string;
+
+  onSelectionItem:(item:string) => void;
 }
 
 function ListGroup({items,heading} :Props) {
