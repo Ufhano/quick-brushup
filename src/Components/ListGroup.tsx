@@ -3,14 +3,10 @@ import { Fragment, useState } from "react";
 
 function ListGroup() {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
-  let selectedIndex = 0;
+ 
   
-  //hook
+  const [selectedIndex,setSelectedIndex] =useState(-1);;
   
-  const arr[selectedIndex,setSelectedIndex] =useState(-1);
-  arr[0]
-  arr[1]
-  const[name,setName]= useState('');
 
 
   return (
