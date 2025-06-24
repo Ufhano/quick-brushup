@@ -1,13 +1,13 @@
 
-import Alert from "./Components/Alert";
+
 function App(){
 
 
-  return <div> 
+  return( <div> 
     <Alert/>
   
   </div>
 
-
+  );
 }
 export default App;
