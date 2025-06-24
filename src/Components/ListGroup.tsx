@@ -7,9 +7,10 @@ function ListGroup() {
   
   //hook
   
-  const arr =useState(-1);
+  const arr[selectedIndex,setSelectedIndex] =useState(-1);
   arr[0]
   arr[1]
+  const[name,setName]= useState('');
 
 
   return (
