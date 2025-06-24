@@ -4,7 +4,7 @@ interface Props{
   heading: string;
 }
 
-function ListGroup(props: Props) {
+function ListGroup(items,heading}: Props) {
   
  
   
@@ -16,9 +16,9 @@ function ListGroup(props: Props) {
     <>
       <h1>List</h1>
 
-      {props.items.length === 0 && <p>No items found</p>}
+      {items.length === 0 && <p>No items found</p>}
       <ul className="list-group">
-        {props.items.map((item, index) => (
+        {items.map((item, index) => (
           <li
             className={selectedIndex === index? 'list-group-item active' : 'list-group=item'}
             key={item}
