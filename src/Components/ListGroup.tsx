@@ -4,7 +4,7 @@ interface Props{
   heading: string;
 }
 
-function ListGroup() {
+function ListGroup(props: Props) {
   let items = ["Johannesburg", "Malawi", "Thohoyandou", "Hayani"];
  
   
