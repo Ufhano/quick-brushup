@@ -1,9 +1,11 @@
+interface Props{
+    text:string;
+}
+const Alert = ({ text} :Props) => {
+  return( <div className="alert alert-primary">{text}</div>
 
-
-const Alert = () => {
-  return (
-    <div>Alert</div>
   )
 }
 
-export default Alert
+
+export default Alert;
